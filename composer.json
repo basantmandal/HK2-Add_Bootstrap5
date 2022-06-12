@@ -1,5 +1,5 @@
 {
-    "name": "hk2/add-bootstrap5",
+    "name": "hk2/addbootstrap5",
     "description": "Adds Bootstrap 5 Support in the Default or Active Theme. Uses CDN & do not cause any page load issue",
     "type": "magento2-module",
     "require": {
