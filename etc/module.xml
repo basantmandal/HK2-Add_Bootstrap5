@@ -1,0 +1,15 @@
+<!--
+/**
+ * @author      Basant Mandal - HK2 (HashTag Kitto)
+ * @copyright   Copyright (c) 2022 Basant Mandal - HK2
+ * @package     HK2_AddBootstrap5
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="HK2_AddBootstrap5" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Theme"/>
+        </sequence>
+    </module>
+</config>

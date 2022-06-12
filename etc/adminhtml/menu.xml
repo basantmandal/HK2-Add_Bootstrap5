@@ -1,0 +1,23 @@
+<!--
+ /**
+ * HK2
+ * @author Basant Mandal - HK2 (HashTag Kitto)
+ *
+ * This source file is subject to the HK2 - Basant Mandal Software License
+ * Do not edit or add to this file if you wish to upgrade the to newer versions in the future.
+ * If you wish to customize this module for your needs.
+ *
+ * @category    HK2
+ * @package     HK2_AddBootstrap5
+ * @copyright   Copyright (c) 2022 Basant Mandal - HK2
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="HK2_AddBootstrap5::elements" title="HK2" translate="HK2" module="HK2_AddBootstrap5"
+             resource="HK2_AddBootstrap5::hk2_options_section" sortOrder="50"
+             action="admin/system_config/edit/section/hk2_options_section/"/>
+    </menu>
+</config>

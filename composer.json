@@ -1,0 +1,36 @@
+{
+    "name": "hk2/add-bootstrap5",
+    "description": "Adds Bootstrap 5 Support in the Default or Active Theme. Uses CDN & do not cause any page load issue",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": ">=100.0.0",
+        "php": "~7.3.0||~7.4.0"
+    },
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Basant Mandal",
+            "email": "hashtagkitto@gmail.com",
+            "role": "Support"
+        }
+    ],
+    "keywords": [
+        "magento 2",
+        "magento 2 bootstrap5",
+        "magento bootstrap5",
+        "bootstrap5",
+        "HK2",
+        "Basant"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "HK2\\AddBootstrap5\\": ""
+        }
+    }
+}

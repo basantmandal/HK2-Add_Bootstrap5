@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author      Basant Mandal - HK2 (HashTag Kitto)
+ * @copyright   Copyright (c) 2022 Basant Mandal - HK2
+ * @package     HK2_AddBootstrap5
+ */
+ -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!-- Add Bootstrap CSS File -->
+        <referenceBlock name="head.additional">
+            <block class="Magento\Framework\View\Element\Template" name="addbootstrap5_header"
+                   template="HK2_AddBootstrap5::header.phtml"
+                   ifconfig="hk2_options_section/hk2bootstrap5_settings/enable"/>
+        </referenceBlock>
+        <!-- Adds Bootstrap JS Activation -->
+        <referenceContainer name="before.body.end">
+            <block class="Magento\Framework\View\Element\Template" name="addbootstrap5_footer"
+                   template="HK2_AddBootstrap5::footer.phtml"
+                   ifconfig="hk2_options_section/hk2bootstrap5_settings/enable"/>
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,37 @@
+<!--
+ /**
+ * HK2
+ * @author Basant Mandal - HK2 (HashTag Kitto)
+ *
+ * This source file is subject to the HK2 - Basant Mandal Software License
+ * Do not edit or add to this file if you wish to upgrade the to newer versions in the future.
+ * If you wish to customize this module for your needs.
+ *
+ * @category    HK2
+ * @package     HK2_AddBootstrap5
+
+ * @copyright   Copyright (c) 2022 Basant Mandal - HK2
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="hk2_options_tab" sortOrder="3000">
+            <label>HK2</label>
+        </tab>
+        <section id="hk2_options_section" translate="label" type="text" sortOrder="0" showInDefault="1"
+                 showInWebsite="1"
+                 showInStore="1">
+            <label>Add Bootstrap 5 Settings</label>
+            <tab>hk2_options_tab</tab>
+            <resource>HK2_AddBootstrap5::core_config</resource>
+            <group id="hk2bootstrap5_settings" translate="label" type="text" sortOrder="250" showInDefault="1">
+                <label>Add Bootstrap 5</label>
+                <field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
