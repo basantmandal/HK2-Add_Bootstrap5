@@ -99,3 +99,7 @@ php bin/magento maintenance:disable
 
 3. Boostrap5 JS - Addition
    ![Screenshot3](docs/images/ScreenShot3.png)
+
+# Composer Package Link
+
+https://packagist.org/packages/hk2/addbootstrap5
