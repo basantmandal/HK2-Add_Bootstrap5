@@ -51,9 +51,12 @@ php bin/magento cache:flush
 ## Backend Settings
 
 Login to Magento Admin -> HK2 MENU -> Add Bootstrap5 -> Enable - Yes
+
 Please clear the cache after enabling the option.
+
 Once Installed you can check in frontend - page view page source - Bootstrap is Enabled.
-Note:- This module enables Bootstrap CDN in Magento Frontend.
+
+_Note_ :- This module enables Bootstrap CDN in Magento Frontend.
 
 ![Screenshot4](docs/images/ScreenShot4.png)
 ![Screenshot5](docs/images/ScreenShot5.png)
