@@ -1,12 +1,13 @@
 <!--
 /**
+ * This module adds Bootstrap 5 Support in the Default or Active Theme. Bootstrap 5 is the newest version  of Bootstrap and is the world's most popular framework for building responsive, mobile-first sites. Bootstrap is an open-source framework that allows you to create responsive, professional-looking websites with ease.
  * @author      Basant Mandal - HK2 (HashTag Kitto)
- * @copyright   Copyright (c) 2022 Basant Mandal - HK2
+ * @copyright   Copyright (c) 2022 Basant Mandal - HK2 
  * @package     HK2_AddBootstrap5
+ * @version     1.0.0
  */
  -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="HK2_AddBootstrap5" setup_version="1.0.0">
         <sequence>
             <module name="Magento_Theme"/>

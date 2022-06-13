@@ -1,27 +1,17 @@
 <!--
  /**
- * HK2
- * @author Basant Mandal - HK2 (HashTag Kitto)
- *
- * This source file is subject to the HK2 - Basant Mandal Software License
- * Do not edit or add to this file if you wish to upgrade the to newer versions in the future.
- * If you wish to customize this module for your needs.
- *
- * @category    HK2
+ * @author      Basant Mandal - HK2 (HashTag Kitto)
+ * @copyright   Copyright (c) 2022 Basant Mandal - HK2 
  * @package     HK2_AddBootstrap5
-
- * @copyright   Copyright (c) 2022 Basant Mandal - HK2
+ * @version     1.0.0
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <tab id="hk2_options_tab" sortOrder="3000">
             <label>HK2</label>
         </tab>
-        <section id="hk2_options_section" translate="label" type="text" sortOrder="0" showInDefault="1"
-                 showInWebsite="1"
-                 showInStore="1">
+        <section id="hk2_options_section" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Add Bootstrap 5 Settings</label>
             <tab>hk2_options_tab</tab>
             <resource>HK2_AddBootstrap5::core_config</resource>
