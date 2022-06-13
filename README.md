@@ -2,21 +2,51 @@
 
 ## Description
 
-This module adds Bootstrap 5 Support in the Default or Active Theme.
+This module adds Bootstrap 5 Support in the Default or Active Theme. Bootstrap 5 is the newest version of Bootstrap and is the world's most popular framework for building responsive, mobile-first sites. Bootstrap is an open-source framework that allows you to create responsive, professional-looking websites with ease.
 
 ## Features
 
-1. It used Bootstrap 5 CDN.
-2. Only Uses CSS & Js, If Enabled from Admin Backend.
-3. No slow loading of the page due to use of Bootstrap.
+1. It uses Bootstrap 5 CDN - Reduces Server Load & Offers better performance, reliability, and security.
+2. It loads Bootstrap CSS & Js, Only If Enabled from Admin Backend.
+3. No Page Slow Loading Issues.
+4. Uses minified version of Bootstrap 5 CSS & Js.
+5. Open Source - Feel Free to send your suggestions of any changes/improvements, will be happy to add the changes.
+
+## Support:
+
+-   Magento v2.3.x, 2.4.x
 
 ## How to install
 
 ### Method 1: Install ready-to-paste package
 
-[Download Link - HK2 - Add Boostrap5 - (https://www.techbasant.in/modules/hk2_add_bootstrap5-1.0.0.zip)](https://www.techbasant.in/modules/hk2_add_bootstrap5-1.0.0.zip 'Link')
+[Download Link - HK2 - Add Boostrap5 - (https://www.techbasant.in/modules/hk2_add_bootstrap5-1.0.0.zip)](https://www.techbasant.in/modules/hk2_add_bootstrap5-1.0.0.zip "Link")
 
 Download the zip package and unzip it in app/code folder.
+
+## Enable Extension:
+
+```
+php bin/magento module:enable HK2_AddBootstrap5
+
+php bin/magento setup:upgrade
+
+php bin/magento setup:static-content:deploy
+
+php bin/magento cache:flush
+```
+
+## Disable Extension:
+
+```
+php bin/magento module:disable HK2_AddBootstrap5
+
+php bin/magentosetup:upgrade
+
+php bin/magento setup:static-content:deploy
+
+php bin/magento cache:flush
+```
 
 ![Screenshot4](docs/images/ScreenShot4.png)
 ![Screenshot5](docs/images/ScreenShot5.png)
@@ -26,9 +56,27 @@ Download the zip package and unzip it in app/code folder.
 Run the following command in Magento 2 root folder
 
 ```
-composer require hk2/module-add-bootstrap5
+composer require hk2/addbootstrap5
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
+```
+
+Note: It is always recommended to install and verify the extension first in the development or staging environment and once verified then install it on production environment.
+
+## Maintenance mode
+
+You may want to enable the maintenance mode when installing or updating the module, especially when working on a production website. To do so, run the two commands below before and after running the other setup commands:
+
+### Enable Maintenance Mode
+
+```
+php bin/magento maintenance:enable
+```
+
+### Disable Maintenance Mode
+
+```
+php bin/magento maintenance:disable
 ```
 
 ## Screenshots
