@@ -20,7 +20,7 @@ This module adds Bootstrap 5 Support in the Default or Active Theme. Bootstrap 5
 
 ### Method 1: Install ready-to-paste package
 
-[Download Link - HK2 - Add Boostrap5 - (https://www.techbasant.in/modules/hk2_add_bootstrap5-1.0.0.zip)](https://www.techbasant.in/modules/hk2_add_bootstrap5-1.0.0.zip "Link")
+[Download Link - HK2 - Add Boostrap5 - (https://www.techbasant.in/modules/hk2_add_bootstrap5-1.0.0.zip)](https://www.techbasant.in/modules/hk2_add_bootstrap5-1.0.0.zip 'Link')
 
 Download the zip package and unzip it in app/code folder.
 
@@ -47,6 +47,13 @@ php bin/magento setup:static-content:deploy
 
 php bin/magento cache:flush
 ```
+
+## Backend Settings
+
+Login to Magento Admin -> HK2 MENU -> Add Bootstrap5 -> Enable - Yes
+Please clear the cache after enabling the option.
+Once Installed you can check in frontend - page view page source - Bootstrap is Enabled.
+Note:- This module enables Bootstrap CDN in Magento Frontend.
 
 ![Screenshot4](docs/images/ScreenShot4.png)
 ![Screenshot5](docs/images/ScreenShot5.png)
