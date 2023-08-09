@@ -1,4 +1,8 @@
-#Change Log
+v2.0.0 - 09-Aug-2023
+(*) Added Bootstrap 5.2.3 & Bootstrap 4
+(*) Improved Module Backend Settings/Options
+(*) Added Demo Pages
+(*) Added Localization Support
 
-12-June-2022
+v1.0.0 - 14-June-2022
 (*) Initial Release
