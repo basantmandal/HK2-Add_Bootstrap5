@@ -1,29 +1,29 @@
 {
     "name": "hk2/addbootstrap5",
-    "description": "This module adds Bootstrap 5 Support in the Default or Active Theme. Bootstrap 5 is the newest version of Bootstrap and is the world's most popular framework for building responsive, mobile-first sites. Bootstrap is an open-source framework that allows you to create responsive, professional-looking websites with ease.",
+    "description": "HK2 Add Bootstrap 5 Module adds Bootstrap 5 Support in the Default or Active Theme. Bootstrap 5 is the newest version of Bootstrap and is the world's most popular framework for building responsive, mobile-first sites. Bootstrap is an open-source framework that allows you to create responsive, professional-looking websites with ease.For backward compatibility you can also select Bootstrap 4 from Module Configuration",
     "type": "magento2-module",
     "require": {
         "magento/framework": ">=100.0.0",
-        "php": "^7.3.0|^7.4.0|^8.0|^8.1.0"
+        "php": "^7.3.0|^7.4.0|^8.0|^8.1.0|^8.2.0"
     },
-    "version": "1.0.0",
+    "version": "2.0.0",
     "license": [
-        "MIT"
+        "OSL-3.0"
     ],
     "authors": [
         {
             "name": "Basant Mandal",
-            "email": "hashtagkitto@gmail.com",
-            "role": "Support"
+            "email": "support@hashtagkitto.co.in",
+            "homepage": "https://www.hashtagkitto.co.in",
+            "role": "Technical Support"
         }
     ],
     "keywords": [
-        "magento 2",
-        "magento 2 bootstrap5",
-        "magento bootstrap5",
-        "bootstrap5",
         "HK2",
-        "Basant"
+        "Basant",
+        "HK2_AddBootstrap5",
+        "Bootstrap 4",
+        "Bootstrap 5"
     ],
     "autoload": {
         "files": [
