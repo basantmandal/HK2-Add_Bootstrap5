@@ -1,16 +1,27 @@
 <?php
+
 /**
- * Do not edit or add to this file if you wish to upgrade this extension to newer version in the future.
+ * Basant Mandal (HK2 - HashTagKitto)
  *
- * In no event shall HK2 - Basant Mandal be liable for any damages (including, without limitation, lost profits, business interruption, or lost information) rising out of ‘Authorized Users’ use of or inability to use the HK2 - Basant Mandal products, even if HK2 - Basant Mandal has been advised of the possibility of such damages. In no event will HK2 - Basant Mandal be liable for prosecution arising from use of the Software against law or for any illegal use.
+ * NOTICE OF LICENSE
  *
+ * This source file is subject to the Basant Mandal (HK2 - HashTagKitto) license that is
+ * available in this module named LICENSE.txt
+ * A copy of license is also avaialble at url - https://www.hashtagkitto.co.in/LICENSE.txt
  *
- * This module adds Bootstrap 5 Support in the Default or Active Theme. Bootstrap 5 is the newest version  of Bootstrap and is the world's most popular framework for building responsive, mobile-first sites. Bootstrap is an open-source framework that allows you to create responsive, professional-looking websites with ease.
- * @version     1.0.0
- * @package     HK2_AddBootstrap5
+ * DISCLAIMER
  *
- * @author Basant Mandal - HK2 (HashTag Kitto)
- * @copyright   Copyright (c) HK2 - Basant Mandal
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category  Module
+ * @package   HK2_AddBootstrap5
+ * @author    Basant Mandal <support@hashtagkitto.co.in>
+ * @copyright 2023 Copyright (c) Basant Mandal (HK2 - HashTagKitto) (https://www.hashtagkitto.co.in/LICENSE.txt)
+ * @license   MIT <https://www.hashtagkitto.co.in/LICENSE.txt>
+ * @link      https://www.hashtagkitto.co.in/
  */
 
-\Magento\Framework\Component\ComponentRegistrar::register(\Magento\Framework\Component\ComponentRegistrar::MODULE, 'HK2_AddBootstrap5', __DIR__);
+use Magento\Framework\Component\ComponentRegistrar;
+
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'HK2_AddBootstrap5', __DIR__);

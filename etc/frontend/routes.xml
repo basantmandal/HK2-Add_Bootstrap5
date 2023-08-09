@@ -1,0 +1,7 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="hk2_addbootstrap5" frontName="addbootstrap">
+            <module name="HK2_AddBootstrap5"/>
+        </route>
+    </router>
+</config>

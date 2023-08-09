@@ -1,7 +1,34 @@
-<?php echo '<!-- Bootstrap5 JS Activation START -->' . PHP_EOL; ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"/>
-<script type="text/javascript">
-    require(["jquery", "jquery.bootstrap"], function ($) {
-    });
+<?php
+
+/**
+ * @var $block \HK2\AddBootstrap5\Block\Index
+ */
+
+$is_enabled = $block->isEnabled();
+
+if ($is_enabled) {
+    $bootstrap_version = $block->getBootstrapVersion();
+    $link = $block->generateBootstrapCdnLink($bootstrap_version);
+    switch ($bootstrap_version) {
+        case '4.6.2':
+            $require_version = "customjs462";
+            break;
+
+        case '5.1.3':
+            $require_version = "customjs513";
+            break;
+
+        default:
+            $require_version = "customjs523";
+            break;
+    }
+
+    /* @noEscape */
+    echo PHP_EOL . PHP_EOL . '<!-- HK2 Bootstrap JS Script START -->' . PHP_EOL; ?>
+<script>
+require(['<?= $block->escapeHtml($require_version); ?>'], function($) {});
 </script>
-<?php echo '<!-- Bootstrap5 JS Activation END -->' . PHP_EOL; ?>
+
+<?= /* @noEscape */ PHP_EOL . '<!-- HK2 Bootstrap JS Script ENDS -->' . PHP_EOL; ?>
+
+<?php } ?>

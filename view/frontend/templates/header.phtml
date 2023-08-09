@@ -1,3 +1,17 @@
-<?php echo PHP_EOL . '<!-- Bootstrap5 CSS CDN - START -->' . PHP_EOL; ?>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>
-<?php echo '<!-- Bootstrap5 CSS CDN - END -->' . PHP_EOL; ?>
+<?php
+
+/**
+ * @var $block \HK2\AddBootstrap5\Block\Index
+ */
+
+$is_enabled = $block->isEnabled();
+
+if ($is_enabled) {
+    $bootstrap_version = $block->getBootstrapVersion();
+    $link = $block->generateBootstrapCdnLink($bootstrap_version);
+
+    /* @noEscape */
+    echo PHP_EOL . PHP_EOL . '<!-- HK2 Bootstrap CSS Style START -->' . PHP_EOL;
+    echo  $link["style"];
+    echo PHP_EOL . '<!-- HK2 Bootstrap CSS Style ENDS -->' . PHP_EOL;
+}
