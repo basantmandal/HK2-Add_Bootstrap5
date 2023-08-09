@@ -1,0 +1,7 @@
+*.log
+.vscode
+.cache
+.idea
+*.sql
+*.zip
+CodeSniffer.log
