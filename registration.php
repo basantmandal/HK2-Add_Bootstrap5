@@ -7,7 +7,7 @@
  *
  * This source file is subject to the Basant Mandal (HK2 - HashTagKitto) license that is
  * available in this module named LICENSE.txt
- * A copy of license is also avaialble at url - https://www.hashtagkitto.co.in/LICENSE.txt
+ * A copy of license is also avaialble at url - https://www.basantmandal.in/LICENSE.txt
  *
  * DISCLAIMER
  *
@@ -17,9 +17,9 @@
  * @category  Module
  * @package   HK2_AddBootstrap5
  * @author    Basant Mandal <support@hashtagkitto.co.in>
- * @copyright 2023 Copyright (c) Basant Mandal (HK2 - HashTagKitto) (https://www.hashtagkitto.co.in/LICENSE.txt)
- * @license   MIT <https://www.hashtagkitto.co.in/LICENSE.txt>
- * @link      https://www.hashtagkitto.co.in/
+ * @copyright 2023 Copyright (c) Basant Mandal (HK2 - HashTagKitto) (https://www.basantmandal.in/LICENSE.txt)
+ * @license   MIT <https://www.basantmandal.in/LICENSE.txt>
+ * @link      https://www.basantmandal.in/
  */
 
 use Magento\Framework\Component\ComponentRegistrar;

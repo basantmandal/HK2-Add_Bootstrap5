@@ -18,17 +18,23 @@ if ($is_enabled) {
             $require_version = "customjs513";
             break;
 
-        default:
+        case '5.2.3':
             $require_version = "customjs523";
+            break;
+
+        default:
+            $require_version = "customjs533";
             break;
     }
 
     /* @noEscape */
-    echo PHP_EOL . PHP_EOL . '<!-- HK2 Bootstrap JS Script START -->' . PHP_EOL; ?>
-<script>
-require(['<?= $block->escapeHtml($require_version); ?>'], function($) {});
-</script>
+    echo PHP_EOL.PHP_EOL.'<!-- HK2 Bootstrap JS Script START -->'.PHP_EOL; ?>
+    <script>
+        require(['<?= $block->escapeHtml($require_version); ?>'], function ($) {
+        });
+    </script>
 
-<?= /* @noEscape */ PHP_EOL . '<!-- HK2 Bootstrap JS Script ENDS -->' . PHP_EOL; ?>
+    <?= /* @noEscape */
+    PHP_EOL.'<!-- HK2 Bootstrap JS Script ENDS -->'.PHP_EOL; ?>
 
 <?php } ?>

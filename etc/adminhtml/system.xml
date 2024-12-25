@@ -1,27 +1,24 @@
-<!--
-/**
- * @author Basant Mandal <support@hashtagkitto.co.in>
- * @copyright 2023 Copyright (c) Basant Mandal (HK2 - HashTagKitto) (https://www.hashtagkitto.co.in/LICENSE.txt)
- * @package HK2_AddBootstrap5
- */
- -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-
-        <tab id="hk2_addbootstrap5_tab" translate="label" class="a-custom-css-class-to-style-this-tab" sortOrder="60">
-            <label>Add Bootstrap 5</label>
+        <tab id="hk2_options_tab" sortOrder="60" translate="label">
+            <label>HK2</label>
         </tab>
 
-        <section id="hk2_addbootstrap5_section1" showInDefault="1" showInWebsite="0" showInStore="0" sortOrder="1" translate="label">
-            <label>Configuration</label>
-            <tab>hk2_addbootstrap5_tab</tab>
+        <section id="hk2_addbootstrap5_section1" showInDefault="1" showInWebsite="0" showInStore="0" sortOrder="1"
+                 translate="label">
+            <label><![CDATA[AddBootstrap5-Configuration]]></label>
+            <tab>hk2_options_tab</tab>
             <resource>HK2_AddBootstrap5::config</resource>
 
             <!-- Group 1 Settings -->
-            <group id="hk2_addbootstrap5_section1_group1" showInDefault="1" showInWebsite="0" showInStore="0" sortOrder="1" translate="label">
+            <group id="hk2_addbootstrap5_section1_group1" showInDefault="1" showInWebsite="0" showInStore="0"
+                   sortOrder="1" translate="label">
                 <label><![CDATA[AddBootstrap5]]></label>
 
-                <field id="hk2_addBootstrap5_enable" showInDefault="1" showInWebsite="0" showInStore="0" type="select" sortOrder="0" translate="label">
+                <field id="hk2_addBootstrap5_enable" showInDefault="1" showInWebsite="0" showInStore="0" type="select"
+                       sortOrder="0" translate="label">
                     <label><![CDATA[GeneralOptions]]></label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <comment>
@@ -31,10 +28,12 @@
             </group>
 
             <!-- Group 2 Settings -->
-            <group id="hk2_addbootstrap5_section1_group2" showInDefault="1" showInWebsite="0" showInStore="0" sortOrder="1" translate="label">
+            <group id="hk2_addbootstrap5_section1_group2" showInDefault="1" showInWebsite="0" showInStore="0"
+                   sortOrder="3" translate="label">
                 <label><![CDATA[BootstrapOptions]]></label>
 
-                <field id="hk2_addBootstrap5_select_bootstrap_version" showInDefault="1" showInWebsite="0" showInStore="0" type="select" sortOrder="0" translate="label">
+                <field id="hk2_addBootstrap5_select_bootstrap_version" showInDefault="1" showInWebsite="0"
+                       showInStore="0" type="select" sortOrder="0" translate="label">
                     <label><![CDATA[SelectBootstrapVersion]]></label>
                     <source_model>HK2\AddBootstrap5\Model\Config\BootstrapVersion</source_model>
                     <comment>
@@ -42,7 +41,8 @@
                     </comment>
                 </field>
 
-                <field id="hk2_addBootstrap5_debug" showInDefault="1" showInWebsite="0" showInStore="0" type="select" sortOrder="0" translate="label">
+                <field id="hk2_addBootstrap5_debug" showInDefault="1" showInWebsite="0" showInStore="0" type="select"
+                       sortOrder="0" translate="label">
                     <label><![CDATA[EnableDebugMode]]></label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <comment>
@@ -52,17 +52,20 @@
             </group>
 
             <!-- Group 3 Settings -->
-            <group id="hk2_addbootstrap5_section1_group3" showInDefault="1" showInWebsite="0" showInStore="0" sortOrder="1" translate="label">
+            <group id="hk2_addbootstrap5_section1_group3" showInDefault="1" showInWebsite="0" showInStore="0"
+                   sortOrder="2" translate="label">
                 <label><![CDATA[DemoLinks]]></label>
 
-                <field id="hk2_addBootstrap5_debug_demo_link_v5" translate="label" type="label" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                <field id="hk2_addBootstrap5_debug_demo_link_v5" translate="label" type="label" sortOrder="1"
+                       showInDefault="1" showInWebsite="0" showInStore="0">
                     <label><![CDATA[Bootstrap5DemoLinkMsg]]></label>
                     <comment>
                         <model>HK2\AddBootstrap5\Model\Config\DemoLinkv5</model>
                     </comment>
                 </field>
 
-                <field id="hk2_addBootstrap5_debug_demo_link_v4" translate="label" type="label" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                <field id="hk2_addBootstrap5_debug_demo_link_v4" translate="label" type="label" sortOrder="1"
+                       showInDefault="1" showInWebsite="0" showInStore="0">
                     <label><![CDATA[Bootstrap4DemoLinkMsg]]></label>
                     <comment>
                         <model>HK2\AddBootstrap5\Model\Config\DemoLinkv4</model>

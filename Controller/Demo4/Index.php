@@ -1,20 +1,11 @@
 <?php
 
-/**
- * Controller - Demov4 - Index
- *
- * @category  Module
- * @package   HK2_AddBootstrap5
- * @author    Basant Mandal <support@hashtagkitto.co.in>
- * @copyright 2023 Copyright (c) Basant Mandal (HK2 - HashTagKitto) (https://www.hashtagkitto.co.in/LICENSE.txt)
- * @license   MIT <https://www.hashtagkitto.co.in/LICENSE.txt>
- * @link      https://www.hashtagkitto.co.in/
- */
-
 namespace HK2\AddBootstrap5\Controller\Demo4;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\View\Result\PageFactory;
+
+use HK2\AddBootstrap5\Helper\Data as HK2_Bootstrap_Helper;
 
 class Index extends \Magento\Framework\App\Action\Action
 {
@@ -24,12 +15,21 @@ class Index extends \Magento\Framework\App\Action\Action
     protected PageFactory $_pageFactory;
 
     /**
+     * @var HK2_Bootstrap_Helper|HK2_Bootstrap_Helper
+     */
+    private HK2_Bootstrap_Helper $hk2_helper;
+
+    /**
+     * Constructor
+     *
      * @param Context $context
      * @param PageFactory $pageFactory
+     * @param HK2_Bootstrap_Helper $hk2Helper
      */
-    public function __construct(Context $context, PageFactory $pageFactory)
+    public function __construct(Context $context, PageFactory $pageFactory, HK2_Bootstrap_Helper $hk2Helper)
     {
         $this->_pageFactory = $pageFactory;
+        $this->hk2_helper = $hk2Helper;
 
         return parent::__construct($context);
     }
@@ -42,7 +42,8 @@ class Index extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         $pageFactory = $this->_pageFactory->create();
-        $pageFactory->getConfig()->getTitle()->set('Demo - Bootstrap 4.x');
+        $bootstrap_version = $this->hk2_helper->getBootstrapVersion();
+        $pageFactory->getConfig()->getTitle()->set("Demo - Bootstrap $bootstrap_version");
 
         return $pageFactory;
     }

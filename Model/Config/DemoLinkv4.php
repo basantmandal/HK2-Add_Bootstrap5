@@ -6,9 +6,9 @@
  * @category  Module
  * @package   HK2_AddBootstrap5
  * @author    Basant Mandal <support@hashtagkitto.co.in>
- * @copyright 2023 Copyright (c) Basant Mandal (HK2 - HashTagKitto) (https://www.hashtagkitto.co.in/LICENSE.txt)
- * @license   MIT <https://www.hashtagkitto.co.in/LICENSE.txt>
- * @link      https://www.hashtagkitto.co.in/
+ * @copyright 2023 Copyright (c) Basant Mandal (HK2 - HashTagKitto) (https://www.basantmandal.in/LICENSE.txt)
+ * @license   MIT <https://www.basantmandal.in/LICENSE.txt>
+ * @link      https://www.basantmandal.in/
  */
 
 namespace HK2\AddBootstrap5\Model\Config;
@@ -45,7 +45,8 @@ class DemoLinkv4 implements \Magento\Config\Model\Config\CommentInterface
     {
         $base_url = $this->_storeManager->getStore()->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_WEB);
         $url = $base_url . 'addbootstrap/demo4';
-        $url = '<a href="' . $url . '"target="_blank">' . $url . '</a>.';
+        $url = '<a href="' . $url . '"target="_blank">' . $url . '</a>';
+
         return $url;
     }
 }

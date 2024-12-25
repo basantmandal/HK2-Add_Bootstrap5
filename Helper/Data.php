@@ -6,9 +6,9 @@
  * @category  Module
  * @package   HK2_AddBootstrap5
  * @author    Basant Mandal <support@hashtagkitto.co.in>
- * @copyright 2023 Copyright (c) Basant Mandal (HK2 - HashTagKitto) (https://www.hashtagkitto.co.in/LICENSE.txt)
- * @license   MIT <https://www.hashtagkitto.co.in/LICENSE.txt>
- * @link      https://www.hashtagkitto.co.in/
+ * @copyright 2023 Copyright (c) Basant Mandal (HK2 - HashTagKitto) (https://www.basantmandal.in/LICENSE.txt)
+ * @license   MIT <https://www.basantmandal.in/LICENSE.txt>
+ * @link      https://www.basantmandal.in/
  */
 
 namespace HK2\AddBootstrap5\Helper;
@@ -87,13 +87,18 @@ class Data extends AbstractHelper
     /**
      * Returns Generated Bootstrap CSS CDN Link
      *
-     * @param  [type] $version
-     *
-     * @return mixed
+     * @param $version
+     * @return string[]
      */
     public function generateBootstrapCdnLink($version)
     {
         // @codingStandardsIgnoreStart
+        // Bootstrap 5.3.3
+        $bs533_cdn = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css';
+        $bs533_integrity = 'sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH';
+        $bootstrap533_link = '<link href="' . $bs533_cdn . '" rel="stylesheet" integrity="' . $bs533_integrity . '" crossorigin="anonymous" />';
+        $bootstrap_5_3_3_jsdelivr = ['style' => $bootstrap533_link];
+
         // Bootstrap 5.2.3
         $bs523_cdn = 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css';
         $bs523_integrity = 'sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65';
@@ -114,6 +119,9 @@ class Data extends AbstractHelper
         // @codingStandardsIgnoreEnd
 
         switch ($version) {
+            case '5.2.3':
+                $link = $bootstrap_5_2_3_jsdelivr;
+                break;
             case '5.1.3':
                 $link = $bootstrap_5_1_3_jsdelivr;
                 break;
@@ -121,7 +129,7 @@ class Data extends AbstractHelper
                 $link = $bootstrap_4_6_2_jsdelivr;
                 break;
             default:
-                $link = $bootstrap_5_2_3_jsdelivr;
+                $link = $bootstrap_5_3_3_jsdelivr;
         }
 
         return $link;

@@ -1,12 +1,12 @@
-<!--
-/**
- * @author Basant Mandal <support@hashtagkitto.co.in>
- * @copyright 2023 Copyright (c) Basant Mandal (HK2 - HashTagKitto) (https://www.hashtagkitto.co.in/LICENSE.txt)
- * @package HK2_AddBootstrap5
- */
- -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="HK2_AddBootstrap5::settings" title="Add Bootstrap 5" module="HK2_AddBootstrap5" sortOrder="39" action="adminhtml/system_config/edit/section/hk2_addbootstrap5_section1" resource="Magento_Backend::content" />
+        <add id="HK2_AddBootstrap5::settings" title="Add Bootstrap 5" module="HK2_AddBootstrap5"
+             sortOrder="39"
+             action="adminhtml/system_config/edit/section/hk2_addbootstrap5_section1"
+             resource="Magento_Backend::content"/>
     </menu>
 </config>
+
+
