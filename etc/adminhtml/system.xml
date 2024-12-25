@@ -8,7 +8,7 @@
 
         <section id="hk2_addbootstrap5_section1" showInDefault="1" showInWebsite="0" showInStore="0" sortOrder="1"
                  translate="label">
-            <label><![CDATA[AddBootstrap5-Configuration]]></label>
+            <label><![CDATA[AddBootstrap5]]></label>
             <tab>hk2_options_tab</tab>
             <resource>HK2_AddBootstrap5::config</resource>
 
