@@ -154,18 +154,6 @@ Contributions are welcome! If you’d like to contribute to this project:
 
 **Please Note** :- I may be a bit delayed in responding or slow in responding due to low amount of free time. I apologize for the inconvenience and I appreciate your patience
 
-## 🍰 Contribution Guidelines 💖
-
-Contributions are welcome! If you’d like to contribute to this project:
-
-- Fork the repository.
-- Create a new branch (git checkout -b feature/your-feature-name).
-- Make your changes and commit them (git commit -am 'Add new feature').
-- Push to the branch (git push origin feature/your-feature-name).
-- Open a pull request.
-
-**Please Note** :- I may be a bit delayed in responding or slow in responding due to low amount of free time. I apologize for the inconvenience and I appreciate your patience
-
 ## 🤝 Consent
 
 By using any Product/Module/Application from Basant Mandal A.K.A (HK2 - Hash Tag Kitto), you hereby consent to our disclaimer and agree to its terms.
