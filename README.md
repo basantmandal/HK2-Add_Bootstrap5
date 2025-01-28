@@ -166,7 +166,7 @@ By using any Product/Module/Application from Basant Mandal A.K.A (HK2 - Hash Tag
 
 ## 💖Like my work? Help Us
 
-Please rate my project or give some stars at [https://github.com/basantmandal/HK2-MultiAnalytics](https://github.com/basantmandal/HK2-MultiAnalytics). You can also contribute to make my Open Source Contribution more frequent and help others - [https://www.buymeacoffee.com/basantmandal](https://www.buymeacoffee.com/basantmandal) or [https://www.basantmandal.in/buymecoffee](https://www.basantmandal.in/buymecoffee)
+Please rate my project or give some stars at [https://github.com/basantmandal/HK2-Add_Bootstrap5-Magento-Module](https://github.com/basantmandal/HK2-Add_Bootstrap5-Magento-Module). You can also contribute to make my Open Source Contribution more frequent and help others - [https://www.buymeacoffee.com/basantmandal](https://www.buymeacoffee.com/basantmandal) or [https://www.basantmandal.in/buymecoffee](https://www.basantmandal.in/buymecoffee)
 
 ## 📫 Feedback
 
