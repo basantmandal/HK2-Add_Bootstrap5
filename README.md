@@ -77,10 +77,6 @@ Bootstrap 5 CDN is Added. Please check the screenshot in case you have any doubt
 
 Note:- This module enables Bootstrap CDN in Magento Frontend.
 
-![Screenshot4](docs/images/ScreenShot4.png)
-![Screenshot5](docs/images/ScreenShot5.png)
-![Screenshot4](docs/images/ScreenShot1.png)
-
 ### Method 2: Install via composer (Recommend)
 
 Run the following command in Magento 2 root folder
@@ -112,7 +108,7 @@ once verified then install it on production environment.
    ![Screenshot3](docs/images/ScreenShot6.jpg)
 
 4. Boostrap4 Demo
-   ![Screenshot3](docs/images/ScreenShot7.jpg)
+   ![Screenshot4](docs/images/ScreenShot7.jpg)
 
 ## 🛠️ Maintenance mode
 
@@ -158,13 +154,21 @@ Contributions are welcome! If you’d like to contribute to this project:
 
 **Please Note** :- I may be a bit delayed in responding or slow in responding due to low amount of free time. I apologize for the inconvenience and I appreciate your patience
 
-## 📜 License
+## 🍰 Contribution Guidelines 💖
 
-Copyright (c) 2022, 2025 [**Basant Mandal (HK2 - Hash Tag Kitto)**](https://www.basantmandal.in/)
+Contributions are welcome! If you’d like to contribute to this project:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature/your-feature-name).
+- Make your changes and commit them (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature/your-feature-name).
+- Open a pull request.
+
+**Please Note** :- I may be a bit delayed in responding or slow in responding due to low amount of free time. I apologize for the inconvenience and I appreciate your patience
 
 ## 🤝 Consent
 
-By using HK2 AddBootstrap 5 Whitelisting Module, you hereby consent to our disclaimer and agree to its terms.
+By using any Product/Module/Application from Basant Mandal A.K.A (HK2 - Hash Tag Kitto), you hereby consent to our disclaimer and agree to its terms.
 
 ## 📢 Disclaimer
 
@@ -174,17 +178,21 @@ By using HK2 AddBootstrap 5 Whitelisting Module, you hereby consent to our discl
 
 ## 💖Like my work? Help Us
 
-Please rate my project or give some stars at [https://github.com/basantmandal/HK2-Add_Bootstrap5](https://github.com/basantmandal/HK2-Add_Bootstrap5). You can also contribute to make my Open Source Contribution more frequent and help others - [https://www.buymeacoffee.com/basantmandal](https://www.buymeacoffee.com/basantmandal) or [https://www.basantmandal.in/buymecoffee](https://www.basantmandal.in/buymecoffee)
+Please rate my project or give some stars at [https://github.com/basantmandal/HK2-MultiAnalytics](https://github.com/basantmandal/HK2-MultiAnalytics). You can also contribute to make my Open Source Contribution more frequent and help others - [https://www.buymeacoffee.com/basantmandal](https://www.buymeacoffee.com/basantmandal) or [https://www.basantmandal.in/buymecoffee](https://www.basantmandal.in/buymecoffee)
 
 ## 📫 Feedback
 
 If you have any feedback, please reach out to us at <support@hashtagkitto.co.in>
 
-## 🛡️ License
+## 🔗 Links:
 
-[![MIT License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://github.com/basantmandal/HK2-Add_Bootstrap5/blob/main/LICENSE.txt)
-
-## 🔗 Links
+Feel free to reach me through the below handles if you'd like to contact me.
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.basantmandal.in/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/basantmandal/)
+
+## 📜 License:
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
